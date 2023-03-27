@@ -1,0 +1,38 @@
+body {
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.lists,
+.clients__list,
+.footer-social-list__item {
+  list-style: none;
+}
+
+.links,
+.contacts-email-footer,
+.contacts-namber-footer,
+.portfolio-list__link,
+.social-list__link {
+  text-decoration: none;
+  font-style: normal;
+}
+
