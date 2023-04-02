@@ -17,7 +17,7 @@
   }
 
   .modal-btn-selection {
-    padding: 10px 32px;
+    padding: 10px 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     &:hover,
@@ -28,4 +28,8 @@
     }
   }
   
+  @media screen and (min-width: 1200px) {
+    .modal-btn-selection {
+      padding: 10px 32px;}
+  }
   

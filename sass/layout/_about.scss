@@ -1,21 +1,27 @@
 .section-about-us {
-    padding-bottom: 94px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+ .section-about-us {
+    display: block;
+     padding-bottom: 94px;
   }
   
   .about-us {
-    display: flex;
+     display: flex;
   } 
     
   .about-us__list {
-    flex-basis: calc((100% - 60px) / 3);
+     flex-basis: calc((100% - 60px) / 3);
 
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
+     &:not(:last-child) {
+       margin-right: 30px;
+     }
   }
   
   .about-us__tumb {
-    position: relative;
+     position: relative;
   }
   
   .about-us__label {
@@ -37,5 +43,6 @@
       bottom: 0;
     }
   }
+}
   
   
