@@ -33,7 +33,16 @@ header {
     padding: 0;
     border: none;
     line-height: 0;
+    cursor: pointer;
   }
+
+  .mobile-menu-btn__icon {
+    transform: fill 250ms line;
+    .mobile-menu-btn:hover &,
+    .mobile-menu-btn:focus & {
+      fill: var(--accent-color);
+    }
+  }  
 
 }
 
