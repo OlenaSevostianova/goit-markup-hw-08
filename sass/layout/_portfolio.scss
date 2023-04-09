@@ -67,10 +67,10 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  padding: 24px 24px;
+  padding: 24px 18px;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--btn-text-light);
@@ -115,6 +115,14 @@
   color: var(--secodary-text-color);
 }
 
+@media screen and (min-width: 480px) {
+  .overlay {    
+    padding: 77px 24px;    
+    font-size: 18px;
+  }    
+}
+
+
 @media screen and (min-width: 768px) {
 
   .portfolio {
@@ -138,9 +146,13 @@
   }  
 
   
-.portfolio-list__card {
+ .portfolio-list__card {
   flex-basis: calc((100% - 30px) / 2);
-}
+  }
+
+ .overlay {    
+  padding: 49px 24px 77px 24px;    
+  }    
 
 }
 
@@ -149,5 +161,9 @@
   .portfolio-list__card {
     flex-basis: calc((100% - 60px) / 3);
   }
+
+  .overlay {    
+    padding: 63px 24px;    
+  }    
   
 }  
