@@ -115,3 +115,23 @@
   letter-spacing: 0.02em;
   color: #2196F3;
 }
+
+@media screen and (max-width: 480px) {
+
+  .mobile-menu__link {
+    font-size: 30px;
+  }
+
+  .mobile-menu__contacts-namber-link {
+      font-size: 24px;
+  }
+
+  .mobile-menu__social-list-link {
+      font-size: 12px;  
+  }  
+
+  .mobile-menu__container {
+    padding-left: 20px;
+  }
+
+}
