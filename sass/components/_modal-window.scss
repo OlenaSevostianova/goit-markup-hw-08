@@ -164,7 +164,7 @@
     justify-content: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 9px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #757575;
@@ -207,7 +207,7 @@
   .contact-form__conditions {
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 9px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
@@ -219,6 +219,14 @@
     .modal {
       width: 450px;
     }  
+
+    .contact-form__checkbox-label {
+      font-size: 12px;
+    }
+
+    .contact-form__conditions {
+      font-size: 12px;
+    }
 
   }
     

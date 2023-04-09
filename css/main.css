@@ -430,7 +430,7 @@ img {
           justify-content: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
@@ -469,7 +469,7 @@ img {
 .contact-form__conditions {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
@@ -479,6 +479,12 @@ img {
 @media screen and (min-width: 480px) {
   .modal {
     width: 450px;
+  }
+  .contact-form__checkbox-label {
+    font-size: 12px;
+  }
+  .contact-form__conditions {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 1200px) {
